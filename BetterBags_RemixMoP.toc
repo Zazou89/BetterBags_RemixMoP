@@ -1,0 +1,10 @@
+## Interface: 100207
+## Title: BetterBags - Remix: MoP
+## Author: Zazou
+## Version: 1.0.0
+## Notes: Categories for all Remix : MoP Items
+## Dependencies: BetterBags
+## X-Curse-Project-ID: 996347
+## IconTexture: Interface\Icons\temp
+
+main.lua
