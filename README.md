@@ -8,6 +8,8 @@ This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/
 *   Transmogs
 *   Mounts & Toys
 
+  Addon is localized in English, French, German and Portuguese Brazilian.
+
 **BetterBags Remix: MoP** is part of [BetterBags: World Events](https://www.curseforge.com/wow/addons/betterbags-world-events)! Take a look!
 
 # Joins us !
