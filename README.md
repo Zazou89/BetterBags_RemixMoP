@@ -1,5 +1,5 @@
 # BetterBags - Remix : MoP  
-This addon must be used with \[BetterBags\](https://www.curseforge.com/wow/addons/better-bags). It creates a new category for all Remix : Mists of Pandaria Items, including:
+This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/better-bags). It creates a new category for all Remix : Mists of Pandaria Items, including:
 
 *   Gems (Meta gems, Prismatic gems, Tinker gems, Cogwheel gems)
 *   Caches
