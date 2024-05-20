@@ -10,7 +10,7 @@ This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/
 
   Addon is localized in English, French, German and Portuguese Brazilian.
 
-**BetterBags Remix: MoP** is part of [BetterBags: World Events](https://www.curseforge.com/wow/addons/betterbags-world-events)! Take a look!
+**BetterBags Remix: MoP** is also a part of [BetterBags: World Events](https://www.curseforge.com/wow/addons/betterbags-world-events)! Take a look!
 
 # Joins us !
 [![Discord Banner 2](https://discordapp.com/api/guilds/1063213796845428876/widget.png?style=banner2)](https://discord.gg/a6DQuK8hV7)
