@@ -4,7 +4,7 @@
 ## Version: 1.0.0
 ## Notes: Categories for all Remix : MoP Items
 ## Dependencies: BetterBags
-## X-Curse-Project-ID: 996347
+## X-Curse-Project-ID: 1021951
 ## IconTexture: Interface\Icons\expansionicon_mistsofpandaria
 
 main.lua
