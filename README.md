@@ -14,3 +14,5 @@ This addon must be used with [BetterBags](https://www.curseforge.com/wow/addons/
 
 # Joins us !
 [![Discord Banner 2](https://discordapp.com/api/guilds/1063213796845428876/widget.png?style=banner2)](https://discord.gg/a6DQuK8hV7)
+
+Thanks to the translators and contributors : @Shortbottom (Lunar festival), @jezuix (Ptbr), @neXter (De)
