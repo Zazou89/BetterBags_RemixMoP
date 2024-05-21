@@ -18,13 +18,13 @@ local locales = {
     },
     ["frFR"] = {
         ["Remix"] = "Remix",
-        ["Meta Gems"] = "Meta-gemmes",
-        ["Cogwheel Gems"] = "Roues dentées précieuses",
-        ["Tinker Gems"] = "Gemmes de bricolage",
-        ["Prismatic Gems"] = "Gemmes prismatiques",
-        ["Enhancements"] = "Améliorations",
-        ["Utilities"] = "Utilitaires",
-        ["Consumables"] = "Potions et Bandages",
+        ["Meta Gems"] = "Meta Gems",
+        ["Cogwheel Gems"] = "Cogwheel Gems",
+        ["Tinker Gems"] = "Tinker Gems",
+        ["Prismatic Gems"] = "Prismatic Gems",
+        ["Enhancements"] = "Enhancements",
+        ["Utilities"] = "Utilities",
+        ["Consumables"] = "Potions & Bandages",
     },
     ["deDE"] = {
         ["Remix"] = "Remix",
@@ -527,10 +527,27 @@ local WoWRemixMoP_Consumable = {
     211254, --Timerunner's Bandage
 }
 
---Loop
+--Color categories
 local colorPrefix = "|cff1DDB7F"
 local resetColor = "|r"
 
+--Delete category before adding translations
+local categoriesToDelete = {
+    "Remix",
+    "Meta Gems",
+    "Cogwheel Gems",
+    "Tinker Gems",
+    "Prismatic Gems",
+    "Enhancements",
+    "Utilities",
+    "Consumables"
+}
+
+for _, category in ipairs(categoriesToDelete) do
+    categories:DeleteCategory(category)
+end
+
+--Loop
 for _, ItemID in pairs(WoWRemixMoP) do
     categories:AddItemToCategory(ItemID, colorPrefix .. L("Remix") .. resetColor)
 end
