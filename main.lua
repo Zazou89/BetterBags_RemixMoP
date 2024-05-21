@@ -39,6 +39,7 @@ local locales = {
         ["Enhancements"] = "Verbrauchbares: Verbesserungen",
         ["Utilities"] = "Verbrauchbares: Hilfsmittel",
         ["Consumables"] = "Tränke und Verbände",
+        ["Threads"] = "Faden",
     },
     ["ptBR"] = {
         ["Remix"] = "Remix",
