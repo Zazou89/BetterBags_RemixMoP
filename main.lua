@@ -15,6 +15,7 @@ local locales = {
         ["Enhancements"] = "Enhancements",
         ["Utilities"] = "Utilities",
         ["Consumables"] = "Potions & Bandages",
+        ["Threads"] = "Threads",
         ["Addon alert"] = "|cff1DDB7FBetterBags - Remix: MoP|r is a part of |cff1DDB7FBetterBags - World Events|r.\nYou must choose which addon to keep, and disable the one you don't want.",
     },
     ["frFR"] = {
@@ -26,6 +27,7 @@ local locales = {
         ["Enhancements"] = "Améliorations",
         ["Utilities"] = "Utilitaires",
         ["Consumables"] = "Potions et Bandages",
+        ["Threads"] = "Fils",
         ["Addon alert"] = "|cff1DDB7FBetterBags - Remix: MoP|r est déjà intégré à |cff1DDB7FBetterBags - World Events|r.\nVous devez choisir l'addon à conserver et désactiver celui dont vous ne voulez pas.",
     },
     ["deDE"] = {
@@ -529,6 +531,49 @@ local WoWRemixMoP_Consumable = {
     211254, --Timerunner's Bandage
 }
 
+local WoWRemixMoP_Threads = {
+    217722, --Thread of Experience
+    219264, --Temporal Thread of Experience
+    219273, --Perpetual Thread of Experience
+    219282, --Infinite Thread of Experience
+    210990, --Thread of Versatility
+    219263, --Temporal Thread of Versatility
+    219272, --Perpetual Thread of Versatility
+    219281, --Infinite Thread of Versatility
+    210989, --Thread of Mastery
+    219262, --Temporal Thread of Mastery
+    219271, --Perpetual Thread of Mastery
+    219280, --Infinite Thread of Mastery
+    210987, --Thread of Leech
+    219261, --Temporal Thread of Leech
+    219270, --Perpetual Thread of Leech
+    219279, --Infinite Thread of Leech
+    210986, --Thread of Speed
+    219260, --Temporal Thread of Speed
+    219269, --Perpetual Thread of Speed
+    219278, --Infinite Thread of Speed
+    210985, --Thread of Haste
+    219259, --Temporal Thread of Haste
+    219268, --Perpetual Thread of Haste
+    219277, --Infinite Thread of Haste
+    210984, --Thread of Critical Strike
+    219258, --Temporal Thread of Critical Strike
+    219267, --Perpetual Thread of Critical Strike
+    219276, --Infinite Thread of Critical Strike
+    210983, --Thread of Stamina
+    219257, --Temporal Thread of Stamina
+    219266, --Perpetual Thread of Stamina
+    219275, --Infinite Thread of Stamina
+    210982, --Thread of Power
+    219256, --Temporal Thread of Power
+    219265, --Perpetual Thread of Power
+    219274, --Infinite Thread of Power  
+    226145, --Minor Spool of Eternal Thread
+    226144, --Lesser Spool of Eternal Thread
+    226143, --Spool of Eternal Thread
+    226142 --Greater Spool of Eternal Thread
+}
+
 --Color categories
 local colorPrefix = "|cff1DDB7F"
 local resetColor = "|r"
@@ -542,7 +587,8 @@ local CategoriesToDelete = {
     "Prismatic Gems",
     "Enhancements",
     "Utilities",
-    "Consumables"
+    "Consumables",
+    "Threads",
 }
 
 for _, category in ipairs(CategoriesToDelete) do
@@ -582,6 +628,9 @@ for _, ItemID in pairs(WoWRemixMoP_Consumable) do
     categories:AddItemToCategory(ItemID, colorPrefix .. L("Consumables") .. resetColor)
 end
 
+for _, ItemID in pairs(WoWRemixMoP_Threads) do
+    categories:AddItemToCategory(ItemID, colorPrefix .. L("Threads") .. resetColor)
+end
 
 local frame = CreateFrame("Frame")
 frame:RegisterEvent("PLAYER_LOGIN")
