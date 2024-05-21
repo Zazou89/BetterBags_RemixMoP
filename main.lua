@@ -15,6 +15,7 @@ local locales = {
         ["Enhancements"] = "Enhancements",
         ["Utilities"] = "Utilities",
         ["Consumables"] = "Potions & Bandages",
+        ["Addon alert"] = "|cff1DDB7FBetterBags - Remix: MoP|r is a part of |cff1DDB7FBetterBags - World Events|r.\nYou must choose which addon to keep, and disable the one you don't want.",
     },
     ["frFR"] = {
         ["Remix"] = "Remix",
@@ -25,6 +26,7 @@ local locales = {
         ["Enhancements"] = "Améliorations",
         ["Utilities"] = "Utilitaires",
         ["Consumables"] = "Potions et Bandages",
+        ["Addon alert"] = "|cff1DDB7FBetterBags - Remix: MoP|r est déjà intégré à |cff1DDB7FBetterBags - World Events|r.\nVous devez choisir l'addon à conserver et désactiver celui dont vous ne voulez pas.",
     },
     ["deDE"] = {
         ["Remix"] = "Remix",
@@ -579,3 +581,24 @@ end
 for _, ItemID in pairs(WoWRemixMoP_Consumable) do
     categories:AddItemToCategory(ItemID, colorPrefix .. L("Consumables") .. resetColor)
 end
+
+
+local frame = CreateFrame("Frame")
+frame:RegisterEvent("PLAYER_LOGIN")
+frame:RegisterEvent("PLAYER_ENTERING_WORLD")
+
+frame:SetScript("OnEvent", function(self, event)
+    if event == "PLAYER_LOGIN" or event == "PLAYER_ENTERING_WORLD" then
+        if IsAddOnLoaded("BetterBags_RemixMoP") and IsAddOnLoaded("BetterBags_WorldEvents") then
+            StaticPopup_Show("BETTERBAGS_INCOMPATIBLE_WARNING")
+        end
+    end
+end)
+
+StaticPopupDialogs["BETTERBAGS_INCOMPATIBLE_WARNING"] = {
+    text = L("Addon alert"),
+    button1 = "OK",
+    timeout = 0,
+    whileDead = true,
+    hideOnEscape = true,
+}
