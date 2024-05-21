@@ -18,13 +18,13 @@ local locales = {
     },
     ["frFR"] = {
         ["Remix"] = "Remix",
-        ["Meta Gems"] = "Meta Gems",
-        ["Cogwheel Gems"] = "Cogwheel Gems",
-        ["Tinker Gems"] = "Tinker Gems",
-        ["Prismatic Gems"] = "Prismatic Gems",
-        ["Enhancements"] = "Enhancements",
-        ["Utilities"] = "Utilities",
-        ["Consumables"] = "Potions & Bandages",
+        ["Meta Gems"] = "Meta-gemmes",
+        ["Cogwheel Gems"] = "Roues dentées précieuses",
+        ["Tinker Gems"] = "Gemmes de bricolage",
+        ["Prismatic Gems"] = "Gemmes prosmatiques",
+        ["Enhancements"] = "Améliorations",
+        ["Utilities"] = "Utilitaires",
+        ["Consumables"] = "Potions et Bandages",
     },
     ["deDE"] = {
         ["Remix"] = "Remix",
@@ -532,7 +532,7 @@ local colorPrefix = "|cff1DDB7F"
 local resetColor = "|r"
 
 --Delete category before adding translations
-local categoriesToDelete = {
+local CategoriesToDelete = {
     "Remix",
     "Meta Gems",
     "Cogwheel Gems",
@@ -543,7 +543,7 @@ local categoriesToDelete = {
     "Consumables"
 }
 
-for _, category in ipairs(categoriesToDelete) do
+for _, category in ipairs(CategoriesToDelete) do
     categories:DeleteCategory(category)
 end
 
