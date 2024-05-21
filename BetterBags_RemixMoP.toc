@@ -1,8 +1,8 @@
 ## Interface: 100207
 ## Title: BetterBags - Remix: MoP
 ## Author: Zazou
-## Version: 1.0.0
-## Notes: Categories for all Remix : MoP Items
+## Version: 1.0.1
+## Notes: Categories for all Remix: MoP Items
 ## Dependencies: BetterBags
 ## X-Curse-Project-ID: 1021951
 ## IconTexture: Interface\Icons\expansionicon_mistsofpandaria
