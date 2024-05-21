@@ -147,6 +147,221 @@ local WoWRemixMoP = {
     213598, --Reins of the Dashing Windsteed Reins of the Dashing Windsteed
     213597, --Reins of the Forest Windsteed Reins of the Forest Windsteed
     213596, --Reins of the Daystorm Windsteed Reins of the Daystorm Windsteed
+    --Cosmetics
+    215182, -- Ensemble: Breezebinder's Vestments
+    215214, -- Ensemble: Regalia of the Horned Nightmare
+    215246, -- Ensemble: Vestments of the Haunted Forest
+    215278, -- Ensemble: Trailseeker's Laminar Armor
+    215310, -- Ensemble: Swarmbreaker's Battleplate
+    215342, -- Ensemble: Battleplate of the Last Mogu
+    215183, -- Ensemble: Spirit-Waker's Vestments
+    215215, -- Ensemble: Regalia of the Horned Nightmare
+    215247, -- Ensemble: Vestments of the Shattered Vale
+    215279, -- Ensemble: Trailseeker's Laminar Armor
+    222961, -- Ensemble: Sunny Tropical Swimwear
+    215343, -- Ensemble: Battleplate of the Last Mogu
+    215184, -- Ensemble: Spirit-Waker's Vestments
+    215216, -- Ensemble: Vestments of the Eternal Dynasty
+    215248, -- Ensemble: Vestments of the Shattered Vale
+    215280, -- Ensemble: Trailseeker's Laminar Armor
+    215312, -- Ensemble: Swarmbreaker's Battleplate
+    215344, -- Ensemble: Battleplate of the Last Mogu
+    215185, -- Ensemble: Spirit-Waker's Vestments
+    215217, -- Ensemble: Vestments of the Eternal Dynasty
+    215249, -- Ensemble: Vestments of the Shattered Vale
+    215281, -- Ensemble: Trailseeker's Laminar Armor
+    215313, -- Ensemble: Spiritguard's Warplate
+    215345, -- Ensemble: Battleplate of the Prehistoric Marauder
+    215186, -- Ensemble: Mistwalker's Vestments
+    215218, -- Ensemble: Vestments of the Eternal Dynasty
+    215250, -- Ensemble: Vestments of the Red Crane
+    215282, -- Ensemble: Dawnwatcher's Scale Armor
+    215314, -- Ensemble: Spiritguard's Warplate
+    215346, -- Ensemble: Battleplate of the Prehistoric Marauder
+    215187, -- Ensemble: Mistwalker's Vestments
+    215219, -- Ensemble: Guise of the Shado-Pan
+    215251, -- Ensemble: Vestments of the Red Crane
+    217833, -- Ensemble: Imminence of Krag'wa's Disciple
+    215315, -- Ensemble: Spiritguard's Warplate
+    215347, -- Ensemble: Battleplate of the Prehistoric Marauder
+    215188, -- Ensemble: Mistwalker's Vestments
+    215220, -- Ensemble: Guise of the Shado-Pan
+    215252, -- Ensemble: Vestments of the Red Crane
+    217834, -- Ensemble: Dreadsquall Hunter's Camouflage
+    215316, -- Ensemble: Shan'ze Warplate
+    215348, -- Ensemble: Gatecrasher's Battleplate
+    215189, -- Ensemble: Regalia of the Burning Scroll
+    215221, -- Ensemble: Mogubreaker Battlegear
+    215253, -- Ensemble: Fire-Charm Vestments
+    215285, -- Ensemble: Sun Pearl Clothing
+    215317, -- Ensemble: Shan'ze Warplate
+    215349, -- Ensemble: Gatecrasher's Battleplate
+    215190, -- Ensemble: Regalia of the Burning Scroll
+    215222, -- Ensemble: Mogubreaker Battlegear
+    215254, -- Ensemble: Fire-Charm Vestments
+    215286, -- Ensemble: Sun Pearl Clothing
+    215318, -- Ensemble: Shan'ze Warplate
+    215350, -- Ensemble: Gatecrasher's Battleplate
+    215191, -- Ensemble: Regalia of the Burning Scroll
+    215223, -- Ensemble: Mogubreaker Battlegear
+    215255, -- Ensemble: Fire-Charm Vestments
+    215287, -- Ensemble: Sun Pearl Clothing
+    215319, -- Ensemble: Shan'ze Warplate
+    215351, -- Ensemble: Gatecrasher's Battleplate
+    215192, -- Ensemble: Regalia of the Chromatic Hydra
+    215224, -- Ensemble: Mogubreaker Battlegear
+    215256, -- Ensemble: Vestments of the Seven Sacred Seals
+    217838, -- Ensemble: Fanatical Champion's Trophies
+    215320, -- Ensemble: Plate of the Lost Catacomb
+    215352, -- Ensemble: Robes of Quiet Reflection
+    215193, -- Ensemble: Regalia of the Chromatic Hydra
+    215225, -- Ensemble: Thunderpaw Battlegear
+    217839, -- Ensemble: Jewels of Temptation's Call
+    215321, -- Ensemble: Plate of the Lost Catacomb
+    215353, -- Ensemble: Robes of Quiet Reflection
+    215194, -- Ensemble: Regalia of the Chromatic Hydra
+    215226, -- Ensemble: Thunderpaw Battlegear
+    215258, -- Ensemble: Vestments of the Seven Sacred Seals
+    215290, -- Ensemble: Yaungol Slayer Battlegear
+    215322, -- Ensemble: Plate of the Lost Catacomb
+    215354, -- Ensemble: Robes of Quiet Reflection
+    215195, -- Ensemble: Chronomancer Regalia
+    215227, -- Ensemble: Thunderpaw Battlegear
+    215259, -- Ensemble: Vestments of the Seven Sacred Seals
+    217841, -- Ensemble: Shado-Pan Watcher Guise
+    215323, -- Ensemble: Battleplate of the All-Consuming Maw
+    215355, -- Ensemble: Robes of Quiet Reflection
+    215196, -- Ensemble: Chronomancer Regalia
+    215228, -- Ensemble: Thunderpaw Battlegear
+    215260, -- Ensemble: Battlegear of the Thousandfold Blades
+    217842, -- Ensemble: Aldrachi Blasphemer's Flames
+    215324, -- Ensemble: Battleplate of the All-Consuming Maw
+    215356, -- Ensemble: Vestments of Serenity
+    221540, -- Ensemble: Black Tropical
+    215197, -- Ensemble: Chronomancer Regalia
+    215229, -- Ensemble: Mistveil Leathers
+    215261, -- Ensemble: Battlegear of the Thousandfold Blades
+    217843, -- Ensemble: Ela'lothen's Vestment of Rebirth
+    223485, -- Ensemble: Green Snugglefin Murloc Romper
+    215357, -- Ensemble: Vestments of Serenity
+    221541, -- Ensemble: Blue Tropical
+    215198, -- Ensemble: Guardian Serpent Regalia
+    215230, -- Ensemble: Mistveil Leathers
+    215262, -- Ensemble: Battlegear of the Thousandfold Blades
+    217844, -- Ensemble: Igneous Onyx Uniform
+    223486, -- Ensemble: Purple Snugglefin Murloc Romper
+    215358, -- Ensemble: Vestments of Serenity
+    221542, -- Ensemble: Sunny Tropical Beachwear
+    215199, -- Ensemble: Guardian Serpent Regalia
+    215231, -- Ensemble: Mistveil Leathers
+    215263, -- Ensemble: Nine-Tail Battlegear
+    215295, -- Ensemble: Battlegear of the Unblinking Vigil
+    215327, -- Ensemble: Battleplate of Cyclopean Dread
+    221543, -- Ensemble: Pink Tropical
+    215200, -- Ensemble: Guardian Serpent Regalia
+    215232, -- Ensemble: Mistveil Leathers
+    215264, -- Ensemble: Nine-Tail Battlegear
+    215296, -- Ensemble: Battlegear of the Unblinking Vigil
+    215328, -- Ensemble: Battleplate of Cyclopean Dread
+    215201, -- Ensemble: Regalia of the Exorcist
+    215265, -- Ensemble: Nine-Tail Battlegear
+    215297, -- Ensemble: Regalia of the Firebird
+    215329, -- Ensemble: White Tiger Battlegear
+    215202, -- Ensemble: Regalia of the Exorcist
+    215266, -- Ensemble: Barbed Assassin Battlegear
+    215298, -- Ensemble: Regalia of the Firebird
+    215330, -- Ensemble: White Tiger Battlegear
+    217837, -- Ensemble: Webbed Soulforged Exoskeleton
+    217836, -- Ensemble: Sin'dorei Magister's Regalia
+    215203, -- Ensemble: Regalia of the Exorcist
+    217835, -- Ensemble: Scales of the Gold Hoarder
+    215267, -- Ensemble: Barbed Assassin Battlegear
+    215299, -- Ensemble: Regalia of the Firebird
+    215331, -- Ensemble: White Tiger Battlegear
+    215341, -- Ensemble: Battleplate of Resounding Rings
+    215309, -- Ensemble: Jade Guardian's Regalia
+    215277, -- Ensemble: Kor'kron Shaman Vestments
+    215204, -- Ensemble: Regalia of Ternion Glory
+    217832, -- Arsenal: Armaments of the Holy Avenger
+    215268, -- Ensemble: Barbed Assassin Battlegear
+    215300, -- Ensemble: Regalia of the Witch Doctor
+    215332, -- Ensemble: Battlegear of the Lightning Emperor
+    217846, -- Ensemble: Plate of the Holy Avenger
+    217845, -- Ensemble: Silks of the Abyssal Cult
+    217819, -- Arsenal: Tools of Krag'wa's Disciple
+    215205, -- Ensemble: Regalia of Ternion Glory
+    215292, -- Ensemble: Battlegear of the Saurok Stalker
+    215269, -- Ensemble: Snowdrift Battlegear
+    215301, -- Ensemble: Regalia of the Witch Doctor
+    215333, -- Ensemble: Battlegear of the Lightning Emperor
+    215340, -- Ensemble: Battleplate of Resounding Rings
+    217828, -- Arsenal: Aldrachi Blasphemer's Glaives
+    215276, -- Ensemble: Kor'kron Shaman Vestments
+    215206, -- Ensemble: Regalia of Ternion Glory
+    215238, -- Ensemble: Tian Monastery Clothing
+    217820, -- Arsenal: Dreadsquall Hunter's Preference
+    215302, -- Ensemble: Regalia of the Witch Doctor
+    215334, -- Ensemble: Battlegear of the Lightning Emperor
+    215291, -- Ensemble: Battlegear of the Saurok Stalker
+    215325, -- Ensemble: Battleplate of the All-Consuming Maw
+    215288, -- Ensemble: Yaungol Slayer Battlegear
+    215207, -- Ensemble: Sha Skin Regalia
+    215239, -- Ensemble: Tian Monastery Clothing
+    215271, -- Ensemble: Snowdrift Battlegear
+    215303, -- Ensemble: Regalia of Celestial Harmony
+    215335, -- Ensemble: Vestments of Winged Triumph
+    215326, -- Ensemble: Battleplate of Cyclopean Dread
+    222960, -- Ensemble: Pink Tropical Swimwear
+    215176, -- Ensemble: Breezebinder's Vestments
+    215208, -- Ensemble: Sha Skin Regalia
+    215240, -- Ensemble: Tian Monastery Clothing
+    215272, -- Ensemble: Mogu Lord's Regalia
+    215304, -- Ensemble: Regalia of Celestial Harmony
+    215336, -- Ensemble: Vestments of Winged Triumph
+    223244, -- Ensemble: Deepest Depths Diver Suit
+    217823, -- Arsenal: Sin'dorei Magister's Enchantment
+    215275, -- Ensemble: Kor'kron Shaman Vestments
+    215209, -- Ensemble: Sha Skin Regalia
+    215241, -- Ensemble: Vestments of the Eternal Blossom
+    215273, -- Ensemble: Mogu Lord's Regalia
+    215305, -- Ensemble: Regalia of Celestial Harmony
+    215337, -- Ensemble: Vestments of Winged Triumph
+    215283, -- Ensemble: Dawnwatcher's Scale Armor
+    215294, -- Ensemble: Battlegear of the Unblinking Vigil
+    217824, -- Arsenal: Webbed Soulforged Weaponry
+    215210, -- Ensemble: Regalia of the Thousandfold Hells
+    215242, -- Ensemble: Vestments of the Eternal Blossom
+    215274, -- Ensemble: Mogu Lord's Regalia
+    215306, -- Ensemble: Jade Guardian's Regalia
+    215338, -- Ensemble: Battleplate of Resounding Rings
+    215289, -- Ensemble: Yaungol Slayer Battlegear
+    215293, -- Ensemble: Battlegear of the Saurok Stalker
+    223243, -- Ensemble: Blue Diver Suit
+    215211, -- Ensemble: Regalia of the Thousandfold Hells
+    215243, -- Ensemble: Vestments of the Eternal Blossom
+    217825, -- Arsenal: Fanatical Champion's Aggression
+    215307, -- Ensemble: Jade Guardian's Regalia
+    215339, -- Ensemble: Battleplate of Resounding Rings
+    215284, -- Ensemble: Dawnwatcher's Scale Armor
+    215311, -- Ensemble: Swarmbreaker's Battleplate
+    217821, -- Arsenal: Treasure of the Gold Hoarder
+    215212, -- Ensemble: Regalia of the Thousandfold Hells
+    215244, -- Ensemble: Vestments of the Haunted Forest
+    217826, -- Arsenal: Instruments of Temptation's Call
+    215308, -- Ensemble: Jade Guardian's Regalia
+    223245, -- Ensemble: Green Diver Suit
+    215270, -- Ensemble: Snowdrift Battlegear
+    221847, -- Ensemble: Black Tropical Swimwear
+    215181, -- Ensemble: Breezebinder's Vestments
+    215213, -- Ensemble: Regalia of the Horned Nightmare
+    215245, -- Ensemble: Vestments of the Haunted Forest
+    217827, -- Arsenal: Shado-Pan Watcher Arsenal
+    222959, -- Ensemble: Tropical Sunrise Swimwear
+    223246, -- Ensemble: Copper Diver Suit
+    217829, -- Arsenal: Ela'lothen's Blessings of Rebirth
+    217830, -- Arsenal: Igneous Onyx Blades
+    217831, -- Arsenal: Secrets of the Abyssal Cult
+
 }
 local WoWRemixMoP_metagems = {
     -- Meta Gems
