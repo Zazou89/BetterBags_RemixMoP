@@ -389,6 +389,7 @@ for _, ItemID in pairs(WoWRemixMoP_Threads) do
     categories:AddItemToCategory(ItemID, colorPrefix .. L("Threads") .. resetColor)
 end
 
+--Check if both BetterBags_RemixMoP and BetterBags_WorldEvents are enabled
 local frame = CreateFrame("Frame")
 frame:RegisterEvent("PLAYER_LOGIN")
 frame:RegisterEvent("PLAYER_ENTERING_WORLD")
