@@ -50,6 +50,7 @@ local locales = {
         ["Enhancements"] = "Aprimoramento",
         ["Utilities"] = "Utilitários",
         ["Consumables"] = "Poções & Bandagens",
+        ["Threads"] = "Fios",
     }
 }
 
