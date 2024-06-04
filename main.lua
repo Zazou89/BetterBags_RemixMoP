@@ -72,6 +72,7 @@ local WoWRemixMoP = {
     89770,  --Tuft of Yak Fur
     224461, --Bones of Mannoroth
     94221,  --Shan'ze Ritual Stone
+    219940, --Meteor Chip
     -- Cache
     223908, --Minor Bronze Cache
     223909, --Lesser Bronze Cache
