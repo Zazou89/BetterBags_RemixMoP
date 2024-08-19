@@ -617,7 +617,7 @@ frame:RegisterEvent("PLAYER_ENTERING_WORLD")
 
 frame:SetScript("OnEvent", function(self, event)
     if event == "PLAYER_LOGIN" or event == "PLAYER_ENTERING_WORLD" then
-        if IsAddOnLoaded("BetterBags_RemixMoP") and IsAddOnLoaded("BetterBags_WorldEvents") then
+        if C_AddOns.IsAddOnLoaded("BetterBags_RemixMoP") and C_AddOns.IsAddOnLoaded("BetterBags_WorldEvents") then
             StaticPopup_Show("BETTERBAGS_INCOMPATIBLE_WARNING")
         end
     end
